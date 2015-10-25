@@ -1,119 +1,73 @@
 body {
-	font-family: "Open Sans";
-	background-color: #eaeaea; 
+	text-align: justify;
+	letter-spacing: 1px;
+	font-weight: 300; 
+	font-size: 15px;
+	background-color: #f4f4f4;
 }
 
 #footer {
-	background-color: #686868;
-	color: white;
-	padding-top: 1em;
-	padding-bottom: 1em;
-	text-align: center;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #aaaaaa;
+	line-height: 60px;
 }
 
 #footer a {
-	color: #eaeaea;
+	color: white; 
 }
 
 #footer a:hover {
-	color: orange;
+	color: #e38f37;
 }
 
-.social a {
+.social a{
 	font-size: 24px;
+}
+
+.feature {
+	padding-top: 8em;
+	padding-bottom: 5em;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #wrapper {
-background-image: url(../images/stade.png);
-height: 450px;
-background-size: cover;
-text-align: center;
-padding-top: 100px;
-color: white;
-text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
-
+	background-image: url(../images/bagoré.jpg);
+	height: 650px;
+	background-size: cover;
+	text-align: center;
+	padding-top: 150px;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0,8);
 }
 
 #wrapper h1 {
-	font-size: 60px;
+	font-size: 46px;
+	color: white;
 }
 
 #wrapper h2 {
-	font-size: 24px;
-	margin-bottom: 4em;
+	font-size: 18px;
+	margin-bottom: 1em;
+	font-style: italic;
+	color: white;
 }
 
 .spacer {
 	height: 8em;
 }
 
-#presentation {
-	font-size: 18px;
-	text-align: center;
-	font-weight: 300;
-	letter-spacing: 1px;
-	padding-left: 150px;
-	padding-right: 150px;
-	margin-bottom: 3em;
-}
-
-#etapes {
-	font-size: 18px;
-	text-align: center;
-	font-weight: 300;
-	letter-spacing: 1px;
-	padding-left: 150px;
-	padding-right: 150px;
-	margin-bottom: 3em;
-}
-
-h4 {
-	font-size: 24px;
-	text-align: center;
-}
-
-h5 {
-	font-size: 24px;
-	text-align: center;
-}
-
-h6 {
-	font-size: 24px;
-	text-align: center;
-}
-
-.number{
-	font-size: 40px;
-	color: orange;
-	text-align: center;
-	margin-bottom: 1em;
-}
-
-#beer{
-	text-align: center;
-	margin-bottom: 3em;
-}
-
-.blocs{
-	border-right: solid;
-	border-left: solid;
-	border-width: 2px;
-	border-color: orange;
-}
-
-.feature{
-	font-weight: 300;
-	letter-spacing: 1px;
+.spacer2 {
+	height: 1em;
 }
 
 .navbar-transparent {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .navbar-transparent .navbar-brand,
 .navbar-transparent .navbar-nav > li > a {
   color: #eeeeee;
-  line-height: 30px;
+  line-height: 25px;
 }
 
 .navbar-transparent .navbar-nav > li > a:hover,
@@ -131,3 +85,176 @@ h6 {
 .navbar-transparent .navbar-brand:focus {
   color: white;
 }
+
+.letour {
+	padding: 8em;
+}
+
+.letour h1 {
+	font-size: 24px;
+	color: #e38f37;
+	font-weight: 500;
+	padding-bottom: 1em;
+}
+
+.letour h2 {
+	font-size: 24px;
+	color: #e38f37;
+	font-weight: 500;
+	padding-bottom: 1em;
+	padding-top: 1em;
+}
+
+.letour h3 {
+	font-size: 24px;
+	color: #e38f37;
+	font-weight: 500;
+	padding-bottom: 1em;
+	padding-top: 1em;
+}
+
+.listeletour {
+	padding-top: 1em;
+	padding-bottom: 0.5em;
+	padding-left: 5em;
+}
+
+.listemissions {
+	padding-top: 1em;
+	padding-bottom: 0.5em;
+	padding-left: 5em;
+}
+
+.citation {
+	padding: 8em;
+}
+
+.citation h1 {
+	font-size: 24px;
+	color: #e38f37;
+	font-weight: 500;
+	text-align: center;
+	padding-top: 2em;
+}
+
+.citation h2 {
+	font-size: 24px;
+	color: #e38f37;
+	font-weight: 500;
+	text-align: center;
+}
+
+.citation h3 {
+	font-size: 24px;
+	color: #e38f37;
+	font-weight: 500;
+	text-align: center;
+}
+
+.citation h4 {
+	font-size: 24px;
+	color: #e38f37;
+	font-weight: 500;
+	text-align: center;
+}
+
+.citation h5 {
+	font-size: 24px;
+	color: #e38f37;
+	font-weight: 500;
+	text-align: center;
+}
+
+.quotes {
+	font-style: italic;
+	text-align: center;
+	padding: 3em;
+}
+
+.toolkit {
+	padding: 8em;
+}
+
+.toolkit h1 {
+	font-size: 24px;
+	color: #e38f37;
+	font-weight: 500;
+	padding-bottom: 1em;
+}
+
+.toolkit h2 {
+	font-size: 24px;
+	color: #e38f37;
+	font-weight: 500;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.toolkit h3 {
+	font-size: 24px;
+	color: #e38f37;
+	font-weight: 500;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.today {
+	padding: 8em;
+}
+
+.today h1 {
+	font-size: 24px;
+	color: #e38f37;
+	font-weight: 500;
+	padding-bottom: 1em;
+}
+
+.today h2 {
+	font-size: 24px;
+	color: #e38f37;
+	font-weight: 500;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.today h3 {
+	font-size: 24px;
+	color: #e38f37;
+	font-weight: 500;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.legend {
+	font-style: italic;
+	font-size: 12px;
+	padding-top: 0.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
